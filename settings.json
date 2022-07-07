@@ -1,0 +1,112 @@
+{
+    //Define o tema do VsCode
+    "workbench.colorTheme": "Dracula",
+
+    //Define Icones para arquivos e estrutura de pastas
+    "workbench.iconTheme": "material-icon-theme",
+
+    //Inicializa o VsCode com um arquivo em branco
+    "workbench.startupEditor": "newUntitledFile",
+
+    //Aumenta a fonte do terminal
+    "terminal.integrated.fontSize": 14,
+
+    //Configura fonte
+    "editor.tabSize": 4,
+    "editor.lineHeight": 22,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code, monospaced",
+    "editor.fontLigatures": true, //permite o = > ficar como uma seta=>
+
+    //Path do diretorio é encurtado quando tem-se uma pasta dentro de outra
+    "explorer.compactFolders": true,
+
+    //Haabilita Marcador de seleção de linha na coluna da numeração
+    "editor.renderLineHighlight": "gutter",
+
+    //A pasta de localização do arquivo é indicada na guia
+    "workbench.editor.labelFormat": "short",
+
+    //Visualização do diretorio completo do arquivo abaixo da guia
+    "breadcrumbs.enabled": true,
+
+    //Habilita pop-up de confimação para deletar ou mudar arquivo de diretório
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+
+    //Habilita barra para dimensionar largura do código
+    "editor.rulers": [80, 120],
+
+    "editor.accessibilitySupport": "off",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoIndent": "full",
+    "editor.codeLens": true,
+    "editor.colorDecorators": true,
+    "editor.comments.insertSpace": true,
+    "editor.parameterHints.enabled": true,
+
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 0,
+    "editor.renderControlCharacters": true,
+    "editor.suggestSelection": "first",
+    "editor.wrappingIndent": "indent",
+    "files.autoSave": "onFocusChange",
+    "files.maxMemoryForLargeFilesMB": 10000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.autoComplete.addBrackets": true,
+    "python.jediEnabled": false,
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "latex-workshop.intellisense.package.enabled": true,
+    "files.associations": {
+        "*.json": "json",
+        "*.html": "njk"
+    },
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+    "nunjucksFormat.frontMatterData": true,
+    "nunjucksFormat.commline": true,
+    "nunjucksFormat.tagmerge": true,
+    "nunjucksFormat.tagsort": true,
+    "nunjucksFormat.textpreserve": true,
+    "nunjucksFormat.unformatted": false,
+
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.opacity": 0.9,
+    "material-icon-theme.files.associations": {
+        "*.ts": "typescript",
+        "*.html": "html",
+    },
+    "material-icon-theme.folders.associations": {
+        "migrations": "tools",
+        "infra": "app",
+        "entities": "class",
+        "http": "container",
+        "modules": "components",
+        "grpc": "pipe",
+        "schemas": "class"
+    },
+
+
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "vsicons.associations.files": [
+        { "icon": "nunjucks", "extensions": ["html"], "format": "svg" }
+    ],
+    "python.languageServer": "Default",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.defaultInterpreterPath": "C:\\ProgramData\\Anaconda3",
+    "python.analysis.completeFunctionParens": true,
+
+}
